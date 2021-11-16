@@ -9,12 +9,12 @@ The map background to check data is built with [contextily](https://github.com/d
 
 
 
-Example 1: visualize main European airport maps
+Example 1: visualize all Amsterdam Schipol airport elements
 
-![eur_airports](eur_airports.png)
+![amsterdam](amsterdam.png)
 
 
-Example 2: airport runway data on top of background map
+Example 2: extract airport data and visualize a runway on top of background map
 
 ![runway_airport](runway_airport.png)
 
@@ -24,9 +24,11 @@ Example 2: airport runway data on top of background map
 
 Run the following notebooks to load and visualize air traffic data:
 
-* demo_top_European_airports: notebook to load data from main European airports and plot them as maps
+* demo_eddf: notebook to load and visualize airport data from EDDF airport 
 
 * demo_airport_runway: notebook to load all data related to an airport, extract runway information as geodataframe and visualize on top of a background map to check data
+
+* demo_top_European_airports (deprecated): notebook to load data from main European airports and plot them as maps 
 
 
 
